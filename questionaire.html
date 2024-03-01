@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Questionnaire</title>
+    <link crossorigin="anonymous" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+          integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" rel="stylesheet">
+
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+
+
+</head>
+<body>
+<div class="container form-div">
+    <h1>Coffee Shop Questionnaire</h1>
+    <hr>
+    <form>
+
+        <table>
+            <thead>
+            <label for="products"><h3>What products do you sell?</h3></label>
+            </thead>
+
+            <tr id="products">
+                <td><input id=hot-drinks class="checkboxes" type="checkbox" value="Hot drinks">Hot drinks</td>
+                <td><input id=biscuits class="checkboxes" type="checkbox" value="Biscuits">Biscuits</td>
+                <td><input id=pw type="checkbox" class="checkboxes" value="Paninis/Wraps">Paninis/Wraps</td>
+            </tr>
+
+            <tr>
+                <td><input id=cold-drinks class="checkboxes" type="checkbox" value="Cold drinks">Cold drinks</td>
+                <td><input id=cakes  class="checkboxes" type="checkbox" value="Cakes">Cakes</td>
+                <td><input id=salads class="checkboxes" type="checkbox" value="Salads">Salads</td>
+            </tr>
+
+            <tr>
+                <td><input id=sandwiches class="checkboxes" type="checkbox" value="Sandwiches">Sandwiches</td>
+                <td><input id=hot_food class="checkboxes" type="checkbox" value="Hot Food">Hot Food</td>
+                <td><input id=otherfood class="checkboxes" type="checkbox" value="other">Other:</td>
+            </tr>
+        </table>
+        <table>
+
+            <thead>
+            <label for="takeout"><h3>Do you offer a take-out service?</h3></label>
+            </thead>
+
+            <tr id="takeout">
+                <td><input name="takeout" class="checkboxes" type="radio">Yes</td>
+                <td><input name="takeout" class="checkboxes" type="radio">No</td>
+            <tr>
+            </tr>
+        </table>
+
+        <table>
+            <thead>
+            <label for="wifi"><h3>Do you offer wi-fi?</h3></label>
+            </thead>
+
+
+            <tr id="wifi">
+                <td><input name="wifi" class="checkboxes" type="radio">Yes</td>
+                <td><input name="wifi" class="checkboxes" type="radio">No</td>
+            </tr>
+        </table>
+
+        <table>
+
+            <thead>
+            <label for="audience"><h3>Who would you say is your target audience??</h3></label>
+            </thead>
+
+
+            <tr id="audience">
+                <td><input id=students class="checkboxes" name="audience" type="checkbox" value="Students"> Students</td>
+                <td><input id=Children name="audience" class="checkboxes" type="checkbox" value="Children"> Children</td>
+                <td><input id=Business_persons class="checkboxes" name="audience" type="checkbox" value="Business persons"> Students</td>
+            </tr>
+
+            <tr>
+                <td><input id=Families name="audience" class="checkboxes" type="checkbox" value="Families">Families</td>
+                <td><input id=oap name="audience" class="checkboxes" type="checkbox" value="OAP's">OAP's</td>
+                <td><input id=Skilled_Laboures class="checkboxes" name="audience" type="checkbox" value="Skilled Laboures">Skilled Laboures
+                </td>
+            </tr>
+
+            <tr>
+                <td><input id=Parents name="audience" class="checkboxes" type="checkbox" value="Parents">Parents</td>
+                <td><input id=Tourists name="audience" class="checkboxes" type="checkbox" value="Tourists">Tourists</td>
+                <td><input id=other-audience name="audience" class="checkboxes" type="checkbox" value="Other">Other:</td>
+            </tr>
+        </table>
+        <table>
+            <thead>
+            <label for="age"><h3>What's your age group?</h3></label>
+            </thead>
+
+
+            <tr id="age">
+                <td><input id=less_eighteen class="checkboxes" name="audience" type="checkbox" value="-18">Under 18</td>
+                <td><input id=fortyplus class="checkboxes" name="audience" type="checkbox" value="-18">40-50</td>
+            </tr>
+
+            <tr>
+                <td><input id=gteit name="audience" class="checkboxes"  type="checkbox" value="-18">18-24</td>
+                <td><input id=sixty name="audience" class="checkboxes" type="checkbox" value="-18">+60</td>
+            </tr>
+            <tr>
+                <td><input id=twentyfiveplus class="checkboxes" name="audience" type="checkbox" value="-18">25-40</td>
+            </tr>
+        </table>
+
+
+        <table>
+
+
+            <h3>What would you say is the most popular beverage you sell?</h3> </br>
+            <textarea rows="5" name="popular_beverage" cols="100"> </textarea>
+
+            <h3>What would you say is the most popular food you sell?</h3> </br>
+            <textarea name="popular_food" rows="5" cols="100"> </textarea>
+
+        </table>
+
+        <button class="btn btn-secondary" type="submit">Submit</button>
+    </form>
+</div>
+</body>
+</html>

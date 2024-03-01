@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta charset="UTF-8">
+    <title>Styling</title>
+    <script src="js/styling.js"></script>
+</head>
+<body>
+
+    <div>
+        <h1>Form</h1>
+
+        <form onsubmit="formCode(event)">
+        <table>
+            <tr>
+                <td>
+                    <label for="fname"> First Name</label>
+                    <input id="fname" name="fname" type="text">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="lname"> Last Name</label>
+                    <input id="lname" name="lname" type="text">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="email">E-mail</label>
+                    <input id="email" type="email">
+                </td>
+            </tr>
+        </table>
+        <table>
+
+            <tr>
+                <td><input id="teens" name="age" type="radio" value="16-17">
+                    <label for="teens">16-17</label></td>
+                <td><input id="youngAdultsOne" name="age" type="radio" value="18-20">
+                    <label for="youngAdultsOne">18-20</label></td>
+                <td><input  id="youngAdultsTwo" name="age" type="radio" value="21-22">
+                    <label for="youngAdultsTwo">21-22</label></td>
+                <td><input id="twentyThreePlus" name="age" type="radio" value="23+">
+                    <label for="twentyThreePlus">23+</label></td>
+            </tr>
+        </table>
+        <button class="btn btn-secondary" type="submit">Submit</button>
+
+        <div>
+            <button id="hide" onclick="hide()" type="checkbox"> <label for="hide">test</label>
+        </div>
+
+        </form>
+    </div>
+
+    <div class="container">
+        <h1>Toggle style</h1>
+
+        <button onclick="toggleDarkMode()" type="button">Change Styling</button>
+        <button onclick="toggleBlueMode()" type="button">Change Styling</button>
+        <button onclick="toggleWhiteMode()" type="button">Change Styling</button>
+    </div>
+
+</body>
+</html>

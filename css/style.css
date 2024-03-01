@@ -1,0 +1,82 @@
+*{
+    font-family: Roboto, "Times New Roman", serif;
+}
+
+body {
+    background-color: #dedede;
+}
+
+h1 {
+    color: #0a968a;
+    text-align: center;
+    margin: 15px auto;
+}
+
+h3 {
+    font-family: Roboto, "Times New Roman", serif;
+    font-weight: bolder;
+    color: #0a968a;
+    margin-bottom: 10px;
+    margin-top: 15px;
+    text-transform: uppercase;
+
+}
+
+h5 {
+    font-size: 20px;
+
+
+}
+
+.form-div {
+    margin-left: 10%;
+    margin-right: 10%;
+
+}
+
+th, td {
+    width: 150px;
+    text-align: left;
+    font-family: Roboto, "Times New Roman", serif;
+    font-size: 15px;
+}
+
+.table-title{
+    font-family: Roboto, "Times New Roman", serif;
+    font-weight: bold;
+
+
+}
+
+table{
+    font-family: Roboto, "Times New Roman", Serif, serif;
+    border: black solid;
+}
+
+
+.checkboxes {
+    margin-right: 5px;
+}
+
+#table-bg{
+    background-color: #97aeb2;
+}
+
+table.wine{
+    padding: 10px;
+    border: 3px solid black;
+    border-radius: 15px;
+    margin: auto;
+}
+
+form{
+    margin: auto;
+}
+
+.blogThumb{
+    height: 200px;
+}
+
+.postTitle{
+    font-size: 25px;
+}
